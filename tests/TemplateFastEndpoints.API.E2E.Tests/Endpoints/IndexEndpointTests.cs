@@ -1,4 +1,4 @@
-using FastEndpointsAPI.Endpoints;
+using TemplateFastEndpoints.API.Endpoints;
 
 namespace TemplateFastEndpoints.API.E2E.Tests;
 
