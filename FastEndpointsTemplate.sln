@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A65F2295-90B7-49AC-BB02-D2193E8EFAA1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A7B1E56F-3513-47F6-AB8B-9C29660EA2A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateFastEndpoints.API", "src\TemplateFastEndpoints.API\TemplateFastEndpoints.API.csproj", "{AB27B72D-9C9F-4CF6-8AA0-80190192622E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateFastEndpoints.API.E2E.Tests", "tests\TemplateFastEndpoints.API.E2E.Tests\TemplateFastEndpoints.API.E2E.Tests.csproj", "{6EB64484-67A2-4CD5-B0F2-3011404D6C4D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{429D1D08-E559-4703-A15F-A82ADA83018C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A9CED488-D3A4-4556-A93D-0511C8ABF1D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateFastEndpoints.E2E.Tests", "tests\TemplateFastEndpoints.API.E2E.Tests\TemplateFastEndpoints.E2E.Tests.csproj", "{A366AADE-7755-4D1A-B067-09ABD9CBD0B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateFastEndpoints.API", "src\TemplateFastEndpoints.API\TemplateFastEndpoints.API.csproj", "{8849DB04-EE08-4A25-A847-846E1A002413}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,17 +20,17 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AB27B72D-9C9F-4CF6-8AA0-80190192622E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB27B72D-9C9F-4CF6-8AA0-80190192622E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AB27B72D-9C9F-4CF6-8AA0-80190192622E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AB27B72D-9C9F-4CF6-8AA0-80190192622E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A366AADE-7755-4D1A-B067-09ABD9CBD0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A366AADE-7755-4D1A-B067-09ABD9CBD0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A366AADE-7755-4D1A-B067-09ABD9CBD0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A366AADE-7755-4D1A-B067-09ABD9CBD0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB64484-67A2-4CD5-B0F2-3011404D6C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB64484-67A2-4CD5-B0F2-3011404D6C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB64484-67A2-4CD5-B0F2-3011404D6C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB64484-67A2-4CD5-B0F2-3011404D6C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8849DB04-EE08-4A25-A847-846E1A002413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8849DB04-EE08-4A25-A847-846E1A002413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8849DB04-EE08-4A25-A847-846E1A002413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8849DB04-EE08-4A25-A847-846E1A002413}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{AB27B72D-9C9F-4CF6-8AA0-80190192622E} = {A65F2295-90B7-49AC-BB02-D2193E8EFAA1}
-		{A366AADE-7755-4D1A-B067-09ABD9CBD0B5} = {429D1D08-E559-4703-A15F-A82ADA83018C}
+		{6EB64484-67A2-4CD5-B0F2-3011404D6C4D} = {A7B1E56F-3513-47F6-AB8B-9C29660EA2A4}
+		{8849DB04-EE08-4A25-A847-846E1A002413} = {A9CED488-D3A4-4556-A93D-0511C8ABF1D8}
 	EndGlobalSection
 EndGlobal
