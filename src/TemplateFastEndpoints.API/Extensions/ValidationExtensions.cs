@@ -1,6 +1,6 @@
 using FluentValidation.Results;
 
-namespace FastEndpointsAPI.Extensions;
+namespace TemplateFastEndpoints.API.Extensions;
 
 public class ValidationResponse
 {

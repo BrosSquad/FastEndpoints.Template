@@ -1,4 +1,4 @@
-namespace FastEndpointsAPI.Endpoints;
+namespace TemplateFastEndpoints.API.Endpoints;
 
 public class IndexResponse
 {

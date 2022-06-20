@@ -1,6 +1,6 @@
 [assembly: CollectionBehavior(DisableTestParallelization = true)]
 
-namespace FastEndpointsAPI.E2E.Tests;
+namespace TemplateFastEndpoints.API.E2E.Tests;
 
 public abstract class EndToEndTestCase : IAsyncDisposable
 {

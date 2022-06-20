@@ -3,7 +3,7 @@ using System.Net.Http.Json;
 
 using Microsoft.Net.Http.Headers;
 
-namespace FastEndpointsAPI.E2E.Tests.Extensions;
+namespace TemplateFastEndpoints.API.E2E.Tests.Extensions;
 
 internal static class HttpResponseMessageExtensions
 {

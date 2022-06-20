@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\FastEndpointsAPI\FastEndpointsAPI.csproj" />
+    <ProjectReference Include="..\..\src\TemplateFastEndpoints.API\TemplateFastEndpoints.API.csproj" />
   </ItemGroup>
 
 </Project>

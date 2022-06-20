@@ -1,6 +1,6 @@
 using FastEndpointsAPI.Endpoints;
 
-namespace FastEndpointsAPI.E2E.Tests;
+namespace TemplateFastEndpoints.API.E2E.Tests;
 
 public class IndexEndpointTests : EndToEndTestCase
 {
