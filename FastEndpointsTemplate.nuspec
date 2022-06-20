@@ -2,15 +2,16 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>FastEndpoints.Template</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>FastEndpoints.Template</title>
-    <authors>CerealKiller</authors>
+    <authors>BrosSquad</authors>
     <description>FastEndpoints.Template for .NET 6.</description>
     <summary>
       This is a solution template for creating a APIs using FastEndpoints.
     </summary>
     <releaseNotes>
-    Initial release
+      - Initial release
+      - Fixed scaffolding
     </releaseNotes>
 
     <projectUrl>https://github.com/BrosSquad/FastEndpoints.Template</projectUrl>
