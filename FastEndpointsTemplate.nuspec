@@ -18,6 +18,8 @@
 
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>fastendpoints project template csharp dotnet</tags>
+    <icon>icon.png</icon>
+    <readme>README.md</readme>
 
     <packageTypes>
       <packageType name="Template" />
