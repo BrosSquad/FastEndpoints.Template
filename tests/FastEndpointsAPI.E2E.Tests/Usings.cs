@@ -5,4 +5,4 @@ global using FluentAssertions;
 // HTTP Status Codes and JSON
 
 // Custom
-global using FastEndpointsAPI.Extensions;
+global using FastEndpointsAPI.E2E.Tests.Extensions;
