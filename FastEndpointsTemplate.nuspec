@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>FastEndpoints.Template</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>FastEndpoints.Template</title>
     <authors>BrosSquad</authors>
     <description>FastEndpoints.Template for .NET 6.</description>
@@ -12,6 +12,7 @@
     <releaseNotes>
       - Initial release
       - Fixed scaffolding
+      - Fixing source name
     </releaseNotes>
 
     <projectUrl>https://github.com/BrosSquad/FastEndpoints.Template</projectUrl>
