@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>FastEndpoints.Template</id>
+    <version>1.0.0</version>
+    <title>FastEndpoints.Template</title>
+    <authors>CerealKiller</authors>
+    <description>FastEndpoints.Template for .NET 6.</description>
+    <summary>
+      This is a solution template for creating a APIs using FastEndpoints.
+    </summary>
+    <releaseNotes>
+    Initial release
+    </releaseNotes>
+
+    <projectUrl>https://github.com/BrosSquad/FastEndpoints.Template</projectUrl>
+    <repository type="git" url="https://github.com/BrosSquad/FastEndpoints.Template.git" branch="main" />
+
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>fastendpoints project template csharp dotnet</tags>
+
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+
+  </metadata>
+
+  <files>
+    <file src=".template.config\icon.png" />
+    <file src="README.md" />
+    <file src=".\**" target="content" exclude="**\node_modules\**;**\bin\**;**\obj\**;**\.vs\**;**\.vscode\**;**\ClientApp\dist\**;**\wwwroot\dist\**;content\Directory.Build.*;**\.git\**;**\.github\**;**\CODE_OF_CONDUCT.md;**\LICENSE;**\README.md;" />
+  </files>
+
+</package>
