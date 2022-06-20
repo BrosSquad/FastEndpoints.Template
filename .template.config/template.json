@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Stefan Bogdanovic",
+  "classifications": ["Web", "API", "FastEndpoints"],
+  "identity": "API",
+  "name": "FastEndpoints API",
+  "shortName": "fastendpoints-full",
+  "sourceName": "FastEndpointsAPI",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "exclude": [
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**/*",
+        "**/*.filelist",
+        "**/*.user",
+        "**/*.lock.json"
+      ]
+    }
+  ]
+}
