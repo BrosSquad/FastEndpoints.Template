@@ -4,7 +4,7 @@
   "classifications": ["Web", "API", "FastEndpoints"],
   "identity": "API",
   "name": "FastEndpoints API",
-  "shortName": "fastendpoints-full",
+  "shortName": "fastendpoints",
   "sourceName": "FastEndpointsAPI",
   "preferNameDirectory": true,
   "tags": {
