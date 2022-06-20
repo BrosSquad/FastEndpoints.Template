@@ -5,7 +5,7 @@
   "identity": "API",
   "name": "FastEndpoints API",
   "shortName": "fastendpoints",
-  "sourceName": "FastEndpointsAPI",
+  "sourceName": "TemplateFastEndpoints.API",
   "preferNameDirectory": true,
   "tags": {
     "language": "C#",
