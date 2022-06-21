@@ -7,7 +7,24 @@
 <p align="center">
   <a href="https://pkg.go.dev/github.com/create-go-app/cli/v3?tab=doc" target="_blank"><img src="https://img.shields.io/nuget/dt/FastEndpoints.Template?style=for-the-badge" alt="Nuget downloads" /></a>&nbsp;<img src="https://img.shields.io/badge/license-apache_2.0-red?style=for-the-badge&logo=none" alt="license" /></p>
 
-# Folder structure
+## Installation
+
+Install .NET template
+
+```bash
+  dotnet new --install FastEndpoints.Template
+```
+    
+## Usage/Examples
+
+```bash
+  dotnet new fastendpoints --name Example
+```
+
+- More options coming soon
+
+
+## Folder structure
 
 ```sh
   src/
@@ -16,7 +33,7 @@
   ├─ API.Integration.Tests/
 ```
 
-# Packages 
+## Packages 
 
 ### API project consists of these packages:
 - FastEndpoints
