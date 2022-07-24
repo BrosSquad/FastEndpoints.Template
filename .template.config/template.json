@@ -1,6 +1,6 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "Stefan Bogdanovic",
+  "author": "Stefan Bogdanović",
   "classifications": ["Web", "API", "FastEndpoints"],
   "identity": "API",
   "name": "FastEndpoints API",
