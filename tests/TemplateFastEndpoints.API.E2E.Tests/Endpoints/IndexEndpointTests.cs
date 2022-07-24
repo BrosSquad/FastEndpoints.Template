@@ -13,11 +13,11 @@ public class IndexEndpointTests : EndToEndTestCase
 
         // Act
         var response = await Client.GetAsync(Url);
-        var (status, body) = await response.Extract<IndexResponse>();
+        var body = await response.Content.ReadFromJsonAsync<IndexResponse>();
 
         // Assert
-        status.Should().Be(System.Net.HttpStatusCode.OK);
+        response.StatusCode.Should().Be(HttpStatusCode.OK);
         body.Should().NotBeNull();
-        body.Message.Should().Be("Hello Fast Endpoints");
+        body!.Message.Should().Be("Hello Fast Endpoints");
     }
 }

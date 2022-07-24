@@ -11,6 +11,26 @@
     "language": "C#",
     "type": "project"
   },
+  "symbols": {
+    "UseCookieAuth": {
+      "description": "Adds Cookie Authentication.",
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false"
+    },
+    "UseSerilog": {
+      "description": "Adds Serilog.",
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false"
+    },
+    "Tests": {
+      "description": "Adds an integration test project.",
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true"
+    }
+  },
   "sources": [
     {
       "source": "./",
@@ -21,7 +41,19 @@
         ".template.config/**/*",
         "**/*.filelist",
         "**/*.user",
-        "**/*.lock.json"
+        "FastEndpointsTemplate.nuspec",
+        "FastEndpointsTemplate.sln",
+        "**/*.lock.json",
+        "LICENSE",
+        "README.md",
+        ".DS_Store",
+        ".github/**"
+      ],
+      "modifiers": [
+        {
+          "condition": "(!AddTests)",
+          "exclude": ["./tests/TemplateFastEndpoints.API.E2E.Tests/**/*"]
+        }
       ]
     }
   ]
