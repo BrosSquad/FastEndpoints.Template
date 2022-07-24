@@ -51,7 +51,7 @@
       ],
       "modifiers": [
         {
-          "condition": "(!AddTests)",
+          "condition": "(!Tests)",
           "exclude": ["./tests/TemplateFastEndpoints.API.E2E.Tests/**/*"]
         }
       ]
