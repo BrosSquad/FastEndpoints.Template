@@ -1,5 +1,5 @@
 <h1 align="center">
-   <img alt="FastEndpoints logo" src="https://github.com/BrosSquad/FastEndpoints.Template/blob/main/.template.config/logo.png" width="224px"/><br/>
+   <img alt="FastEndpoints logo" src="https://github.com/BrosSquad/FastEndpoints.Template/blob/main/.template.config/icon.png" width="224px"/><br/>
 </h1>
 <p align="center">Minimal Fast Endpoints template with Integration Testing</p>
 
