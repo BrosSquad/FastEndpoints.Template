@@ -29,7 +29,7 @@
 
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <tags>fastendpoints project template csharp dotnet</tags>
-        <icon>icon.png</icon>
+        <icon>logo.png</icon>
         <readme>README.md</readme>
 
         <packageTypes>
