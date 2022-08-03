@@ -20,7 +20,28 @@ Install .NET template
   dotnet new fastendpoints --name Example
 ```
 
-- More options coming soon
+## Options
+
+```sh
+FastEndpoints API (C#)
+Author: Stefan Bogdanović
+Options:
+  -auth|--cookie-auth  Adds Cookie Authentication.
+                       bool - Optional
+                       Default: false
+
+  -log|--serilog       Adds Serilog.
+                       bool - Optional
+                       Default: false
+
+  -U|--UseDocker       Adds Docker support.
+                       bool - Optional
+                       Default: true
+
+  -t|--tests           Adds an integration test project.
+                       bool - Optional
+                       Default: true
+```
 
 ## Folder structure
 
