@@ -1,5 +1,5 @@
 <h1 align="center">
-   <img alt="FastEndpoints logo" src="https://github.com/BrosSquad/FastEndpoints.Template/blob/main/.template.config/icon.png" width="224px"/><br/>
+   <img alt="FastEndpoints logo" src="https://github.com/BrosSquad/FastEndpoints.Template/blob/main/.template.config/logo.png" width="224px"/><br/>
 </h1>
 <p align="center">Minimal Fast Endpoints template with Integration Testing</p>
 
@@ -13,7 +13,7 @@ Install .NET template
 ```bash
   dotnet new --install FastEndpoints.Template
 ```
-    
+
 ## Usage/Examples
 
 ```bash
@@ -21,7 +21,6 @@ Install .NET template
 ```
 
 - More options coming soon
-
 
 ## Folder structure
 
@@ -32,14 +31,16 @@ Install .NET template
   ├─ API.Integration.Tests/
 ```
 
-## Packages 
+## Packages
 
 ### API project consists of these packages:
+
 - FastEndpoints
 - FastEndpoints.Generator (Source generation)
 - FastEndpoints.Swagger
 
 ### API.Integration.Tests project consists of these packages:
+
 - xUnit
 - FluentAssertions
 - Microsoft.AspNetCore.Mvc.Testing
