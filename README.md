@@ -4,7 +4,7 @@
 <p align="center">Minimal Fast Endpoints template with Integration Testing</p>
 
 <p align="center">
-  <a href="https://www.nuget.org/packages/FastEndpoints.Template/" target="_blank"><img src="https://img.shields.io/nuget/dt/FastEndpoints.Template?style=for-the-badge" alt="Nuget downloads" /></a>&nbsp;<img src="https://img.shields.io/badge/license-apache_2.0-red?style=for-the-badge&logo=none" alt="license" /></p>
+  <a href="https://www.nuget.org/packages/FastEndpoints.Template/" target="_blank"><img src="https://img.shields.io/nuget/dt/FastEndpoints.Template?style=for-the-badge" alt="Nuget downloads" /></a>&nbsp;<img src="https://img.shields.io/badge/license-apache_2.0-red?style=for-the-badge&logo=none" alt="license" /> &nbsp;<img src="https://img.shields.io/nuget/v/FastEndpoints.Template?style=for-the-badge" /></p>
 
 ## Installation
 
