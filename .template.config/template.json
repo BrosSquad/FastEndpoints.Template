@@ -1,7 +1,11 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Stefan Bogdanović",
-  "classifications": ["Web", "API", "FastEndpoints"],
+  "classifications": [
+    "Web",
+    "API",
+    "FastEndpoints"
+  ],
   "identity": "API",
   "name": "FastEndpoints API",
   "shortName": "fastendpoints",
@@ -23,6 +27,12 @@
       "type": "parameter",
       "datatype": "bool",
       "defaultValue": "false"
+    },
+    "UseDocker": {
+      "description": "Adds Docker support.",
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true"
     },
     "Tests": {
       "description": "Adds an integration test project.",
@@ -52,7 +62,16 @@
       "modifiers": [
         {
           "condition": "(!Tests)",
-          "exclude": ["./tests/TemplateFastEndpoints.API.E2E.Tests/**/*"]
+          "exclude": [
+            "./tests/TemplateFastEndpoints.API.E2E.Tests/**/*"
+          ]
+        },
+        {
+          "condition": "(!UseDocker)",
+          "exclude": [
+            "./src/TemplateFastEndpoints.API/Dockerfile",
+            "./src/TemplateFastEndpoints.API/.dockerignore"
+          ]
         }
       ]
     }

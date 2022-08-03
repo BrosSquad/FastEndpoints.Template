@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>FastEndpoints.Template</id>
-        <version>1.0.5</version>
+        <version>1.0.6</version>
         <title>FastEndpoints.Template</title>
         <authors>CerealKiller</authors>
         <description>FastEndpoints.Template for .NET 6.</description>
@@ -10,6 +10,8 @@
             This is a solution template for creating a APIs using FastEndpoints.
         </summary>
         <releaseNotes>
+            # [1.0.6] (2022-08-03)
+            - Adding Docker Support
             # [1.0.5] (2022-08-03)
             - Replacing launchSettings.json
             # [1.0.3] (2022-07-24)
@@ -23,14 +25,13 @@
             - Fixed scaffolding
             - Fixing source name
         </releaseNotes>
-
+        
         <projectUrl>https://github.com/BrosSquad/FastEndpoints.Template</projectUrl>
         <repository type="git" url="https://github.com/BrosSquad/FastEndpoints.Template.git" branch="main"/>
 
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <tags>fastendpoints project template csharp dotnet</tags>
+        <tags>fastendpoints minimal api mvc asp net core project template csharp dotnet</tags>
         <icon>logo.png</icon>
-        <readme>README.md</readme>
 
         <packageTypes>
             <packageType name="Template"/>
