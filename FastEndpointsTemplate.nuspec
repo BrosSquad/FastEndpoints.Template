@@ -31,7 +31,7 @@
 
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <tags>fastendpoints minimal api mvc asp net core project template csharp dotnet</tags>
-        <icon>logo.png</icon>
+        <icon>icon.png</icon>
 
         <packageTypes>
             <packageType name="Template"/>
