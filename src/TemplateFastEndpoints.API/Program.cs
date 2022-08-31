@@ -1,5 +1,7 @@
 using System.Text.Json;
+
 using TemplateFastEndpoints.API.Extensions;
+
 using FastEndpoints.Swagger;
 #if (UseCookieAuth)
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -11,7 +13,6 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 #if (UseSerilog)
-
 var logger = new LoggerConfiguration()
     .WriteTo.Console()
     .MinimumLevel.Information()
@@ -24,10 +25,10 @@ try
 #endif
 
 builder.WebHost.ConfigureKestrel(options =>
-    {
-        options.AddServerHeader = false;
-        options.AllowSynchronousIO = false;
-    });
+{
+    options.AddServerHeader = false;
+    options.AllowSynchronousIO = false;
+});
 
 #if (UseSerilog)
  if (builder.Environment.IsProduction())
@@ -66,9 +67,9 @@ app.UseAuthorization();
 
 app.UseFastEndpoints(options =>
 {
-    options.SerializerOptions = x => x.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
-    options.ErrorResponseStatusCode = StatusCodes.Status422UnprocessableEntity;
-    options.ErrorResponseBuilder = (failures, _) => failures.ToResponse();
+    options.Errors.ResponseBuilder = (errors, _) => errors.ToResponse();
+    options.Errors.StatusCode = StatusCodes.Status422UnprocessableEntity;
+    options.Serializer.Options.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
 });
 
 if (app.Environment.IsDevelopment())
@@ -91,4 +92,6 @@ finally
     Log.CloseAndFlush();
 }
 #endif
-public partial class Program { }
+public partial class Program
+{
+}
