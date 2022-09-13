@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>FastEndpoints.Template</id>
-        <version>1.0.7</version>
+        <version>1.0.8</version>
         <title>FastEndpoints.Template</title>
         <authors>CerealKiller</authors>
         <description>FastEndpoints.Template for .NET 6.</description>
@@ -10,6 +10,8 @@
             This is a solution template for creating a APIs using FastEndpoints.
         </summary>
         <releaseNotes>
+            # [1.0.8] (2022-09-13)
+            - Upgrading packages
             # [1.0.7] (2022-08-31)
             - Icon changed
             - Upgrading packages
