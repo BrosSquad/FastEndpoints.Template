@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>FastEndpoints.Template</id>
-        <version>1.0.8</version>
+        <version>1.0.9</version>
         <title>FastEndpoints.Template</title>
         <authors>CerealKiller</authors>
         <description>FastEndpoints.Template for .NET 6.</description>
