@@ -50,7 +50,7 @@ builder.Services.AddAuthorization();
 
 builder.Services.AddFastEndpoints(options =>
 {
-    options.SourceGeneratorDiscoveredTypes = DiscoveredTypes.All;
+    options.SourceGeneratorDiscoveredTypes = new Type[] { };
 });
 
 builder.Services.AddSwaggerDoc(addJWTBearerAuth: false);
