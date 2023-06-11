@@ -2,7 +2,7 @@ namespace TemplateFastEndpoints.API.Endpoints;
 
 public class IndexResponse
 {
-    public string Message { get; set; } = default!;
+    public string Message { get; init; } = default!;
 }
 
 public class IndexEndpoint : EndpointWithoutRequest<IndexResponse>
