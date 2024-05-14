@@ -12,7 +12,7 @@ public static class PaginationExtensions
     /// <param name="pageNumber">The page number to retrieve.</param>
     /// <param name="pageSize">The page size (number of items per page).</param>
     /// <returns>A paginated response containing the items on the requested page and pagination information.</returns>
-    public static PaginatedResponse<T> ToPaginatedResult<T>(this IEnumerable<T> source, int pageNumber, int pageSize)
+    public static PaginatedResponse<T> ToPaginatedResult<T>(this IEnumerable<T> source, int pageNumber, int pageSize) where T : class
     {
         var enumerable = source as IQueryable<T> ?? source.AsQueryable();
         var items = enumerable.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToList();

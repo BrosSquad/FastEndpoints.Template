@@ -1,6 +1,6 @@
 ﻿namespace TemplateFastEndpoints.API.Utils;
 
-public class PaginatedResponse<T>
+public class PaginatedResponse<T> where T : class
 {
     public PaginatedResponse(IEnumerable<T> data, int pageNumber, int pageSize,int totalPages, int totalRecords)
     {
